@@ -1,2 +1,4 @@
-# j4j
-Gelişmiş J4J botu.
+Gelişmiş J4J botu sizlere açık kaynak olarak paylaşılmıştır!
+
+Sizden ricam;
+HyperZone#2163 den izinsiz paylaşılmaması!
