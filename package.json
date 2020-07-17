@@ -1,0 +1,26 @@
+{
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.5.1",
+    "event-target": "^1.2.3",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "quick.db": "^6.3.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {},
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
