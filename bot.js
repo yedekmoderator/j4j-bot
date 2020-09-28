@@ -1,3 +1,6 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const data = new Map();
 const express = require("express");
 const settings = require("./settings.json");
 const { Client, RichEmbed } = require("discord.js");
@@ -7,21 +10,10 @@ function sleep(milliseconds) {
   for (var i = 0; i < 1e7; i++) {
     if (new Date().getTime() - start > milliseconds) {
       break;}}}
-const http = require("http");
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get("http://PROJE_İSMİ.glitch.me/");
-}, 3000);
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const data = new Map();
 
 client.on("ready", ()=> {
-  console.log(client.user.tag + " | İsmi İle Giriş Yapıldı.")        
+  console.log(client.user.tag + " | Bot Online.")        
   client.user.setActivity(settings.game)
 })
 
