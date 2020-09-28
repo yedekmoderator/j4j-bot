@@ -1,5 +1,5 @@
 const express = require("express");
-const ayarlar = require("./ayarlar.json");
+const settings = require("./settings.json");
 const { Client, RichEmbed } = require("discord.js");
 const app = express();
 function sleep(milliseconds) {
@@ -22,7 +22,7 @@ const data = new Map();
 
 client.on("ready", ()=> {
   console.log(client.user.tag + " | İsmi İle Giriş Yapıldı.")        
-  client.user.setActivity(ayarlar.oynuyor)
+  client.user.setActivity(settings.game)
 })
 
 client.on("message", async msg => {
@@ -37,11 +37,11 @@ client.on("message", async msg => {
         } else {
           await data.set(msg.author.id, 1)
           await sleep(5000)
-          await msg.channel.send(ayarlar.dm1)  
+          await msg.channel.send(settings.dm1)  
           await sleep(15000)      
-          await msg.channel.send(ayarlar.dm2)  
+          await msg.channel.send(settings.dm2)  
           await sleep(1000)      
-          await msg.channel.send(ayarlar.dm3)  
+          await msg.channel.send(settings.dm3)  
       }
       }
     }
@@ -49,27 +49,27 @@ client.on("message", async msg => {
 })
 
 setInterval(async () => {
- let kanal = client.channels.find(a => a.name === ayarlar.k)
-      kanal.send(ayarlar.m1)
+ let channel = client.channels.find(a => a.name === settings.channel)
+      channel.send(settings.m1)
 
 setInterval(async () => {
- let kanal = client.channels.find(a => a.name === ayarlar.k)
-      kanal.send(ayarlar.m2)
-}, ayarlar.s * 1000)
+ let channel = client.channels.find(a => a.name === settings.channel)
+      channel.send(settings.m2)
+}, settings.second * 1000)
 
 setInterval(async () => {
- let kanal = client.channels.find(a => a.name === ayarlar.k)
-      kanal.send(ayarlar.m3)
-}, ayarlar.s * 1000)
+ let channel = client.channels.find(a => a.name === settings.channel)
+      channel.send(settings.m3)
+}, settings.second * 1000)
 
 setInterval(async () => {
- let kanal = client.channels.find(a => a.name === ayarlar.k)
-      kanal.send(ayarlar.m4)
-}, ayarlar.s * 1000)
+ let channel = client.channels.find(a => a.name === settings.channel)
+      channel.send(settings.m4)
+}, settings.second * 1000)
 
 setInterval(async () => {
- let kanal = client.channels.find(a => a.name === ayarlar.k)
-      kanal.send(ayarlar.m5)
-}, ayarlar.s * 1000)
+ let channel = client.channels.find(a => a.name === settings.channel)
+      channel.send(settings.m5)
+}, settings.second * 1000)
 });
-client.login(ayarlar.token)
+client.login(settings.token)
