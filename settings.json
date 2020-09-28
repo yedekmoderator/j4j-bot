@@ -1,0 +1,14 @@
+{
+  "token"   :   "Enter Token!",
+  "m1"      :   "Enter Message!",
+  "m2"      :   "Enter Message!",
+  "m3"      :   "Enter Message!",
+  "m4"      :   "Enter Message!",
+  "m5"      :   "Enter Message!",
+  "dm1"     :   "Enter DM Message!",
+  "dm2"     :   "Enter DM Message!",
+  "dm3"     :   "Enter DM Message!",
+  "channel" :   "Enter The Channel Name!",  
+  "second"  :   "Enter Seconds!",
+  "status"  :   "Enter What Will Be Written In The Status!"
+}
