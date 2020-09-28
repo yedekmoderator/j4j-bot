@@ -1,14 +1,13 @@
 {
-"token":"Tokeni Giriniz!",
-"m1":"Mesajı Giriniz!",
-"m2":"Mesajı Giriniz!",
-"m3":"Mesajı Giriniz!",
-"m4":"Mesajı Giriniz!",
-"m5":"Mesajı Giriniz!",
-"dm1":"Dm Mesajı Giriniz!",
-"dm2":"Dm Mesajı Giriniz!",
-"dm3":"Dm Mesajı Giriniz!",
-"k":"Kanal İsmini Giriniz!",  
-"s":"Saniyeyi Giriniz!"
+"token"   :   "Enter Token!",
+"m1"      :   "Enter Message!",
+"m2"      :   "Enter Message!",
+"m3"      :   "Enter Message!",
+"m4"      :   "Enter Message!",
+"m5"      :   "Enter Message!",
+"dm1"     :   "Enter DM Message!",
+"dm2"     :   "Enter DM Message!",
+"dm3"     :   "Enter DM Message!",
+"channel" :   "Enter the Channel Name!",  
+"second"  :   "Enter Seconds!"
 }
-
