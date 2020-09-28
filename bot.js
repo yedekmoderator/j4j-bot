@@ -14,7 +14,7 @@ function sleep(milliseconds) {
 
 client.on("ready", ()=> {
   console.log(client.user.tag + " | Bot Online.")        
-  client.user.setActivity(settings.game)
+  client.user.setActivity(settings.status)
 })
 
 client.on("message", async msg => {
