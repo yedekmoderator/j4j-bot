@@ -18,7 +18,7 @@ quick.db (6.3.2)
 
 ## İletişim
 
-HyperZone#9999 – [https://discord.gg/Qw3pzE7](https://discord.gg/Qw3pzE7)
+HyperZone#1243 – [https://discord.gg/Qw3pzE7](https://discord.gg/Qw3pzE7)
 
 [https://github.com/hyperzone0/j4j-bot](https://github.com/hyperzone0/j4j-bot)
 
